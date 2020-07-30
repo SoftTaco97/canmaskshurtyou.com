@@ -1,14 +1,8 @@
 <?php
 
-// Get configuration
-require('config.php');
-
-// Get gifs
-$url = "https://api.giphy.com/v1/gifs/search?api_key=$giphy_api_key&q=no&limit=25&offset=0&lang=en&rating=r";
-$gifs = json_decode(file_get_contents($url))->data;
-
 // Get random image to display for the idiots who think that wearing a mask hurts you
-$randomGif = $gifs[array_rand($gifs)]->images->original->url;
+require('get_random_gif.php');
+$randomGif = get_random_gif();
 
 // Links for the bottom area
 $bottomLinks = array(
