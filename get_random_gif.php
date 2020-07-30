@@ -10,6 +10,9 @@ function get_json_data($file) {
     return json_decode(file_get_contents($file));
 }
 
+/**
+ * Function for getting the locally stored data
+ */
 function get_local_data() {
     $file = 'data/gifs.json';
     if (file_exists($file)) {
@@ -17,6 +20,7 @@ function get_local_data() {
     }
     return null;
 }
+
 /**
  * Function for formatting the data returned from giphy
  */
