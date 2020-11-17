@@ -27,12 +27,12 @@ $bottomLinks = array(
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Does wearing a mask affect you health? If so, how?">
+  <meta name="description" content="Does wearing a mask affect your health? If so, how?">
   <meta name="twitter:card" content="summary" />
   <meta property="og:type" content="document" />
   <meta property="og:title" content="Can wearing a mask actually harm you?" />
-  <meta property="og:url" content="http://canmaskshurtyou.com/" />
-  <meta property="og:image" content="http://canmaskshurtyou.com/img/masks.png" />
+  <meta property="og:url" content="https://canmaskshurtyou.com/" />
+  <meta property="og:image" content="https://canmaskshurtyou.com/img/masks.png" />
   <title>Can Masks Hurt You?</title>
 
   <!-- Fonts -->
