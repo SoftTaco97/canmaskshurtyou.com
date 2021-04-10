@@ -1,6 +1,6 @@
-# ![canmaskshurtyou.com](http://canmaskshurtyou.com/)
+# [canmaskshurtyou.com](http://canmaskshurtyou.com/)
 
-The source code for ![canmaskshurtyou.com](http://canmaskshurtyou.com/)
+The source code for [canmaskshurtyou.com](http://canmaskshurtyou.com/)
 
 ## About the project
 
@@ -14,17 +14,17 @@ The source code for ![canmaskshurtyou.com](http://canmaskshurtyou.com/)
 
 ### How the project was made
 
-The project is written in `PHP` (_*shudders*_) and utilizes the ![Giphy API](https://developers.giphy.com/).
+The project is written in `PHP` (_*shudders*_) and utilizes the [Giphy API](https://developers.giphy.com/).
 
 ### How the project works
 
-When a request is sent to ![canmaskshurtyou.com](http://canmaskshurtyou.com/) the project will first check locally stored data 
+When a request is sent to [canmaskshurtyou.com](http://canmaskshurtyou.com/) the project will first check locally stored data 
 in the form of a JSON file in the `data` folder. 
 
 If no file exists (because no requests have come through yet), or if the file has not been updated that day,
-then the application requests 25 gifs from the ![Giphy API](https://developers.giphy.com/) and stores them in this file to use for other requests.
+then the application requests 25 gifs from the [Giphy API](https://developers.giphy.com/) and stores them in this file to use for other requests.
 
-Once it has either collected gifs from the ![Giphy API](https://developers.giphy.com/), or from the local storage, it selects one at random and displays it to the user.
+Once it has either collected gifs from the [Giphy API](https://developers.giphy.com/), or from the local storage, it selects one at random and displays it to the user.
 
 **"Why did you make this overly complicated, hacked together, non scalable solution?"** 
 
